@@ -10,24 +10,29 @@ namespace Practical_2_Exrcise_1
         {
             Console.Write("Name: ");
             p.Name = Console.ReadLine();
+
             do
             {
                 Console.Write("Price (0 - 100): ");
                 p.Price = double.Parse(Console.ReadLine());
+                if (p.Price > 0 && p.Price <= 100) {
+                }
+                else Console.WriteLine("Price phai nhap lon hon 0 va be hon 100");
             } while (!(p.Price > 0 && p.Price <= 100));
             Console.Write("Description: ");
             p.Description = Console.ReadLine();
-            Console.Write("Rate (1 - 5): ");
-            int n = int.Parse(Console.ReadLine());
-            p.Rate = new int[n];
-            for (int i = 0; i < n; i++)
-            {
-                do
+                Console.Write("Rate (1 - 5): ");
+                int n = int.Parse(Console.ReadLine());
+                p.Rate = new int[n];
+                for (int i = 0; i < n; i++)
                 {
-                    Console.Write("Rate " + (i + 1) + ": ");
-                    p.Rate[i] = int.Parse(Console.ReadLine());
-                } while (!(p.Rate[i] >= 1 && p.Rate[i] <= 5));
-            }
+                    if (p.Rate[i] >= 1 && p.Rate[i] <= 5)
+                    {
+                        Console.Write("Rate " + (i + 1) + ": ");
+                        p.Rate[i] = int.Parse(Console.ReadLine());
+                    }
+                    else Console.WriteLine("Rate phai dat tu 1 den 5");
+                }
             ProductList.Add(p);
         }
         public void RemoveProduct()
