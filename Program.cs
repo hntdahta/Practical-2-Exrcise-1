@@ -6,14 +6,14 @@ namespace Practical_2_Exrcise_1
     {
         static void Main(string[] args)
         {
-            int choice;
+            int choice = 6;
             Shop shop = new Shop();
             Console.WriteLine("1. Add new Product");
             Console.WriteLine("2. Remove Product");
             Console.WriteLine("3. Iterate product list");
             Console.WriteLine("4. Search product");
             Console.WriteLine("5. Exit");
-            while (true)
+            while (choice != 5)
             {
                 Console.Write("\nSelect: ");
                 choice = int.Parse(Console.ReadLine());
