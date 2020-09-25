@@ -1,0 +1,13 @@
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\bin\Debug\netcoreapp3.1\Practical-2-Exrcise-1.exe
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\bin\Debug\netcoreapp3.1\Practical-2-Exrcise-1.deps.json
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\bin\Debug\netcoreapp3.1\Practical-2-Exrcise-1.runtimeconfig.json
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\bin\Debug\netcoreapp3.1\Practical-2-Exrcise-1.runtimeconfig.dev.json
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\bin\Debug\netcoreapp3.1\Practical-2-Exrcise-1.dll
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\bin\Debug\netcoreapp3.1\Practical-2-Exrcise-1.pdb
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\obj\Debug\netcoreapp3.1\Practical-2-Exrcise-1.csprojAssemblyReference.cache
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\obj\Debug\netcoreapp3.1\Practical-2-Exrcise-1.AssemblyInfoInputs.cache
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\obj\Debug\netcoreapp3.1\Practical-2-Exrcise-1.AssemblyInfo.cs
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\obj\Debug\netcoreapp3.1\Practical-2-Exrcise-1.csproj.CoreCompileInputs.cache
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\obj\Debug\netcoreapp3.1\Practical-2-Exrcise-1.dll
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\obj\Debug\netcoreapp3.1\Practical-2-Exrcise-1.pdb
+C:\Users\hntdahta\source\repos\Practical-2-Exrcise-1\obj\Debug\netcoreapp3.1\Practical-2-Exrcise-1.genruntimeconfig.cache
