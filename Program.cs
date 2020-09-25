@@ -4,15 +4,19 @@ namespace Practical_2_Exrcise_1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Menu()
         {
-            int choice = 6;
-            Shop shop = new Shop();
             Console.WriteLine("1. Add new Product");
             Console.WriteLine("2. Remove Product");
             Console.WriteLine("3. Iterate product list");
             Console.WriteLine("4. Search product");
             Console.WriteLine("5. Exit");
+        }
+        static void Main(string[] args)
+        {
+            int choice = 6;
+            Shop shop = new Shop();
+            Menu();
             while (choice != 5)
             {
                 Console.Write("\nSelect: ");
