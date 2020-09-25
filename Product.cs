@@ -6,8 +6,8 @@ namespace Practical_2_Exrcise_1
 {
     class Product
     {
-        public String Name;
-        public String Description;
+        public string Name;
+        public string Description;
         public double Price;
         public int[] Rate;
         public void ViewInfo()

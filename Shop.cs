@@ -12,12 +12,12 @@ namespace Practical_2_Exrcise_1
             p.Name = Console.ReadLine();
             do
             {
-                Console.Write("Price: ");
+                Console.Write("Price (0 - 100): ");
                 p.Price = double.Parse(Console.ReadLine());
             } while (!(p.Price > 0 && p.Price <= 100));
             Console.Write("Description: ");
             p.Description = Console.ReadLine();
-            Console.Write("Number of rates: ");
+            Console.Write("Rate (1 - 5): ");
             int n = int.Parse(Console.ReadLine());
             p.Rate = new int[n];
             for (int i = 0; i < n; i++)
